@@ -98,7 +98,7 @@
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(157, 52);
             this.button16.TabIndex = 16;
-            this.button16.Text = "消息推广";
+            this.button16.Text = "待开发...";
             this.button16.UseVisualStyleBackColor = false;
             this.button16.Click += new System.EventHandler(this.button12_Click);
             // 

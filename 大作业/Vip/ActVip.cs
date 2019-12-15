@@ -40,5 +40,38 @@ namespace 大作业.Vip
         {
             this.Close();
         }
+
+        private void metroGrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void metroComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string actName = this.metroComboBox1.Text;
+            metroTextBox1.Text = actName;
+
+        }
+
+        private void metroTextBox1_Click(object sender, EventArgs e)
+        {
+            //string actName = this.metroComboBox1.Text;
+
+        }
+
+        private void ActVip_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroTextBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

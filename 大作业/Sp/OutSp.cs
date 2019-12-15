@@ -67,11 +67,11 @@ namespace 大作业
             {
                 MessageBox.Show("数量不足！");
             }
-            else if (num == int.Parse(textBox1.Text))
-            {
-                num = num - int.Parse(textBox1.Text);
-                s2._Del("good", "good_id",comboBox1.Text);
-            }
+            //else if (num == int.Parse(textBox1.Text))
+            //{
+            //    num = num - int.Parse(textBox1.Text);
+            //    s2._Del("good", "good_id",comboBox1.Text);
+            //}
             else
             {
                 num = num - int.Parse(textBox1.Text);
@@ -97,6 +97,11 @@ namespace 大作业
         private void button4_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
