@@ -95,6 +95,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Sp\AccountLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sp\AccountLog.Designer.cs">
+      <DependentUpon>AccountLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sp\SpInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sp\SpInForm.Designer.cs">
+      <DependentUpon>SpInForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sql\ConnectionPool.cs" />
     <Compile Include="Sql\SFact.cs" />
     <Compile Include="Sql\Select.cs" />
@@ -120,6 +132,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sql\SpDao.cs" />
     <Compile Include="Sql\VipDao.cs" />
+    <Compile Include="Staff\Achm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\Achm.Designer.cs">
+      <DependentUpon>Achm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Staff\AddSta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +155,24 @@
     </Compile>
     <Compile Include="Staff\UpdSta.Designer.cs">
       <DependentUpon>UpdSta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\WagesMange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\WagesMange.Designer.cs">
+      <DependentUpon>WagesMange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vip\ActVip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vip\ActVip.Designer.cs">
+      <DependentUpon>ActVip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vip\MsgPushVip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vip\MsgPushVip.Designer.cs">
+      <DependentUpon>MsgPushVip.cs</DependentUpon>
     </Compile>
     <Compile Include="Vip\UpdVip.cs">
       <SubType>Form</SubType>
@@ -162,6 +198,9 @@
     <EmbeddedResource Include="MainWin.resx">
       <DependentUpon>MainWin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Sp\AccountLog.resx">
+      <DependentUpon>AccountLog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sp\InpSp.resx">
       <DependentUpon>InpSp.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,6 +215,12 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Sp\SpInForm.resx">
+      <DependentUpon>SpInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\Achm.resx">
+      <DependentUpon>Achm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Staff\AddSta.resx">
       <DependentUpon>AddSta.cs</DependentUpon>
     </EmbeddedResource>
@@ -184,6 +229,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Staff\UpdSta.resx">
       <DependentUpon>UpdSta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\WagesMange.resx">
+      <DependentUpon>WagesMange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vip\ActVip.resx">
+      <DependentUpon>ActVip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vip\MsgPushVip.resx">
+      <DependentUpon>MsgPushVip.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vip\UpdVip.resx">
       <DependentUpon>UpdVip.cs</DependentUpon>

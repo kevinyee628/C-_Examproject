@@ -24,7 +24,7 @@ namespace 大作业
     }
     class Select : SOperate
     {
-        String constr = "server = 127.0.0.1; port = 3306 ;user = root; password = 123456; database = market";
+        String constr = "server = 127.0.0.1; port = 3306 ;user = root; password = root; database = market";
 
         public DataSet Add(string str, string str1)
         {
@@ -141,7 +141,7 @@ namespace 大作业
     }
     class Update : SOperate
     {
-        string strCon = "server = 127.0.0.1; port = 3306 ;user = root; password = 123456; database = market";
+        string strCon = "server = 127.0.0.1; port = 3306 ;user = root; password = root; database = market";
         public DataSet _Select(string str)
         {
             throw new NotImplementedException();
@@ -260,7 +260,7 @@ namespace 大作业
 
         public void _Del(string table, string str1, string str2)
         {
-            string strCon = "server = 127.0.0.1; port = 3306 ;user = root; password = 123456; database = market";
+            string strCon = "server = 127.0.0.1; port = 3306 ;user = root; password = root; database = market";
             MySqlConnection conn = new MySqlConnection(strCon);
             conn.Open();
             try
@@ -310,7 +310,7 @@ namespace 大作业
     }
     class Add : SOperate
     {
-        string strCon = "server = 127.0.0.1; port = 3306 ;user = root; password = 123456; database = market";
+        string strCon = "server = 127.0.0.1; port = 3306 ;user = root; password = root; database = market";
         public void _Add(string str, string str1)
         {
             MySqlConnection conn = new MySqlConnection(strCon);

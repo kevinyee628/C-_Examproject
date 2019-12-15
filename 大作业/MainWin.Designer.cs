@@ -30,14 +30,20 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -46,12 +52,6 @@
             this.button4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -64,11 +64,11 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tabControl1.Location = new System.Drawing.Point(3, 106);
+            this.tabControl1.Location = new System.Drawing.Point(3, 107);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(936, 459);
+            this.tabControl1.Size = new System.Drawing.Size(936, 458);
             this.tabControl1.TabIndex = 13;
             // 
             // tabPage1
@@ -82,11 +82,39 @@
             this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage1.Size = new System.Drawing.Size(928, 419);
+            this.tabPage1.Size = new System.Drawing.Size(928, 418);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "会员管理";
             this.tabPage1.UseVisualStyleBackColor = true;
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.Color.White;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button16.Location = new System.Drawing.Point(540, 163);
+            this.button16.Margin = new System.Windows.Forms.Padding(4);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(157, 52);
+            this.button16.TabIndex = 16;
+            this.button16.Text = "消息推广";
+            this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button17
+            // 
+            this.button17.BackColor = System.Drawing.Color.White;
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button17.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button17.Location = new System.Drawing.Point(540, 52);
+            this.button17.Margin = new System.Windows.Forms.Padding(4);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(157, 52);
+            this.button17.TabIndex = 15;
+            this.button17.Text = "会员活动";
+            this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button11_Click);
             // 
             // button5
             // 
@@ -141,11 +169,41 @@
             this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage2.Size = new System.Drawing.Size(928, 419);
+            this.tabPage2.Size = new System.Drawing.Size(928, 418);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "仓库管理";
             this.tabPage2.UseVisualStyleBackColor = true;
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.White;
+            this.button14.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button14.Location = new System.Drawing.Point(536, 52);
+            this.button14.Margin = new System.Windows.Forms.Padding(4);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(157, 52);
+            this.button14.TabIndex = 19;
+            this.button14.Text = "商品进货单";
+            this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.White;
+            this.button13.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button13.Location = new System.Drawing.Point(536, 162);
+            this.button13.Margin = new System.Windows.Forms.Padding(4);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(157, 52);
+            this.button13.TabIndex = 18;
+            this.button13.Text = "账单流水";
+            this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button8
             // 
@@ -203,10 +261,38 @@
             this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage3.Size = new System.Drawing.Size(928, 419);
+            this.tabPage3.Size = new System.Drawing.Size(928, 418);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "员工管理";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.White;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button12.Location = new System.Drawing.Point(555, 50);
+            this.button12.Margin = new System.Windows.Forms.Padding(4);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(157, 52);
+            this.button12.TabIndex = 4;
+            this.button12.Text = "业绩查询";
+            this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click_1);
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.White;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button11.Location = new System.Drawing.Point(555, 161);
+            this.button11.Margin = new System.Windows.Forms.Padding(4);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(157, 52);
+            this.button11.TabIndex = 3;
+            this.button11.Text = "薪资管理";
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click_1);
             // 
             // button3
             // 
@@ -323,89 +409,6 @@
             this.label2.Size = new System.Drawing.Size(955, 105);
             this.label2.TabIndex = 39;
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.White;
-            this.button13.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button13.Location = new System.Drawing.Point(536, 162);
-            this.button13.Margin = new System.Windows.Forms.Padding(4);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(157, 52);
-            this.button13.TabIndex = 18;
-            this.button13.Text = "账单流水";
-            this.button13.UseVisualStyleBackColor = false;
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.Color.White;
-            this.button14.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button14.Location = new System.Drawing.Point(536, 52);
-            this.button14.Margin = new System.Windows.Forms.Padding(4);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(157, 52);
-            this.button14.TabIndex = 19;
-            this.button14.Text = "商品进货单";
-            this.button14.UseVisualStyleBackColor = false;
-            // 
-            // button16
-            // 
-            this.button16.BackColor = System.Drawing.Color.White;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button16.Location = new System.Drawing.Point(540, 163);
-            this.button16.Margin = new System.Windows.Forms.Padding(4);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(157, 52);
-            this.button16.TabIndex = 16;
-            this.button16.Text = "消息推广";
-            this.button16.UseVisualStyleBackColor = false;
-            this.button16.Click += new System.EventHandler(this.button12_Click);
-            // 
-            // button17
-            // 
-            this.button17.BackColor = System.Drawing.Color.White;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button17.Location = new System.Drawing.Point(540, 52);
-            this.button17.Margin = new System.Windows.Forms.Padding(4);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(157, 52);
-            this.button17.TabIndex = 15;
-            this.button17.Text = "会员活动";
-            this.button17.UseVisualStyleBackColor = false;
-            this.button17.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.White;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button11.Location = new System.Drawing.Point(555, 161);
-            this.button11.Margin = new System.Windows.Forms.Padding(4);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(157, 52);
-            this.button11.TabIndex = 3;
-            this.button11.Text = "薪资管理";
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.White;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button12.Location = new System.Drawing.Point(555, 50);
-            this.button12.Margin = new System.Windows.Forms.Padding(4);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(157, 52);
-            this.button12.TabIndex = 4;
-            this.button12.Text = "业绩查询";
-            this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.button12_Click_1);
             // 
             // MainWin
             // 

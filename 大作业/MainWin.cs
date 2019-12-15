@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using 大作业.Staff;
+using 大作业.Vip;
+using 大作业.Sp;
 //using 大作业.Staff;
 
 namespace 大作业
@@ -205,17 +207,39 @@ namespace 大作业
 
         private void button11_Click(object sender, EventArgs e)
         {
-
+            ActVip actVip = new ActVip();
+            actVip.Show();
+            //this.Hide();
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-
+            MsgPushVip msgPushVip = new MsgPushVip();
+            msgPushVip.Show();
         }
 
         private void button12_Click_1(object sender, EventArgs e)
         {
+            Achm achm = new Achm();
+            achm.Show();
+        }
 
+        private void button14_Click(object sender, EventArgs e)
+        {
+            SpInForm spInForm = new SpInForm();
+            spInForm.Show();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            AccountLog accountLog = new AccountLog();
+            accountLog.Show();
+        }
+
+        private void button11_Click_1(object sender, EventArgs e)
+        {
+            WagesMange wagesMange = new WagesMange();
+            wagesMange.Show();
         }
     }
 }
